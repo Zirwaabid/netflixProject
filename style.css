@@ -280,7 +280,57 @@ footer {
 
     }
 
+    .faq h2 {
+        font-size: 24px;
+    }
+
+    .faq {
+        padding: 102px;
+    }
+
+    .faqbox {
+        font-size: 16px;
+        padding: 6px;
+        margin: 3px auto;
+    }
+
+    svg {
+        width: 20px;
+        height: 20px;
+    }
+
+    .lines {
+        font-size: 11px;
+        padding: 19px 0px 13px 0px;
+    }
+
+    .end input {
+        padding: 0px 0px 1px 7px;
+        font-size: 9px;
+        border-radius: 1px;
+    }
+
+    footer {
+        padding: 0px;
+    }
+
+    .footer {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .footer-items {
+        padding: 6px;
+    }
+
+    .footer a {
+        font-size: 9px;
+    }
+
+    .text {
+        padding: 13px 0;
+    }
 }
+
 
 @media screen and (max-width: 650px) {
 
